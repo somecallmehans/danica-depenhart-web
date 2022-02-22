@@ -11,7 +11,7 @@ export default function Layout({ children }) {
         className="flex flex-col h-screen justify-between"
         style={{
           backgroundImage: "url(" + "/background.jpg" + ")",
-          backgroundPosition: "50% 18%",
+          backgroundPosition: "10% 75%",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
         }}
