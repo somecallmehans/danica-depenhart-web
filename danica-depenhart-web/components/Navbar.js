@@ -14,14 +14,14 @@ export default function Navbar() {
         </Link>
         <div className="hidden w-full lg:inline-flex lg:flex-grow lg:w-auto">
           <div className="flex flex-row justify-center items-center">
-            <Link href="/publications">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:bg-gray-400 hover:text-white">
-                Publications
-              </a>
-            </Link>
             <Link href="/about">
               <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:bg-gray-400 hover:text-white">
                 About
+              </a>
+            </Link>
+            <Link href="/publications">
+              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:bg-gray-400 hover:text-white">
+                Publications
               </a>
             </Link>
           </div>
