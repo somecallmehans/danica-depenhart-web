@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Navbar from "../components/Navbar";
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
         <title>Danica Depenhart</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Navbar />
       <div>Hello World</div>
     </div>
   );
