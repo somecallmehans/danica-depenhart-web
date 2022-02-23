@@ -400,6 +400,11 @@ module.exports = {
       "8xl": ["6rem", { lineHeight: "1" }],
       "9xl": ["8rem", { lineHeight: "1" }],
     },
+    extend: {
+      fontSize: {
+        xxs: ["0.6rem", { lineHeight: "0.75rem" }],
+      },
+    },
     fontWeight: {
       thin: "100",
       extralight: "200",

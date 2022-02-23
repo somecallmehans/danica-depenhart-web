@@ -1,5 +1,7 @@
 import Head from "next/head";
+import Image from "next/image";
 import Layout from "../components/Layout";
+import bdb from "../public/bdb.jpg";
 
 export default function Home() {
   return (
@@ -9,7 +11,19 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
-        <div>Hello World</div>
+        <div className="flex flex-row justify-center items-start overflow-hidden">
+          <div className="w-full md:w-1/2 mx-auto text-center md:text-left lg:p-20">
+            <h1 className="text-right text-7xl font-bold content-end">
+              big dumb baby
+            </h1>
+            <h1 className="text-right text-8xl font-bold content-end">
+              writes poetry
+            </h1>
+          </div>
+          <div className="mx-auto">
+            <Image src={bdb} alt="Danica Pic" width={550} height={650} />
+          </div>
+        </div>
       </Layout>
     </div>
   );

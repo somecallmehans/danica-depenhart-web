@@ -7,8 +7,8 @@ export default function Navbar() {
       <nav className="flex items-center justify-between flex-wrap bg--500 p-6">
         <Link href="/">
           <a className="inline-flex items-center p-2 mr-4 ">
-            <span className="text-xl text-black font-bold uppercase tracking-wide">
-              Danica Depenhart
+            <span className="text-xl text-black font-bold tracking-wide">
+              danica depenhart
             </span>
           </a>
         </Link>
