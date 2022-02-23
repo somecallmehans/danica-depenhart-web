@@ -7,15 +7,7 @@ import { urlObjectKeys } from "next/dist/shared/lib/utils";
 export default function Layout({ children }) {
   return (
     <main>
-      <div
-        className="flex flex-col h-screen justify-between"
-        style={{
-          backgroundImage: "url(" + "/background.jpg" + ")",
-          backgroundPosition: "10% 75%",
-          backgroundSize: "cover",
-          backgroundRepeat: "no-repeat",
-        }}
-      >
+      <div className="flex flex-col h-screen justify-between background-img">
         <Navbar />
         <div>{children}</div>
         <Footer />

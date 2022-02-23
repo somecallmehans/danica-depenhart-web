@@ -6,10 +6,10 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-4 py-5 md:py-20">
         <div className="h-0.5 w-full bg-white"></div>
         <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row justify-between md:items-center mt-8">
-          <div>
+          <div className="text-white">
             <p>&copy; Danica Depenhart. All Rights Reserved</p>
           </div>
-          <div className="text-white">
+          <div className="text-black">
             <p>
               Developed by
               <div className="inline-block">

@@ -424,6 +424,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.background-img {
+    min-height: 100%;
+    box-shadow: inset 100em 100em rgba(255, 255, 255, 0.37);
+    background-image: url("/background.jpg");
+    background-position: 10% 75%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -500,10 +508,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .rounded {
   border-radius: 0.25rem;
-}
-.bg-gray-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
 }
 .bg-white {
   --tw-bg-opacity: 1;
