@@ -11,17 +11,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
-        <div className="flex flex-row overflow-hidden">
-          <div className="w-full md:w-1/2 md:text-left lg:p-20">
-            <h1 className="w-full text-right text-7xl font-bold content-end">
+        <div className="overflow-hidden p-60">
+          <div className="mx-auto">
+            <h1 className="w-full text-center text-8xl font-bold content-end">
               big dumb baby
             </h1>
-            <h1 className="w-full text-right text-8xl font-bold content-end">
+            <h1 className="w-full text-center text-9xl font-bold content-end">
               writes poetry
             </h1>
-          </div>
-          <div className="">
-            <Image src={bdb} alt="Danica Pic" width={550} height={650} />
           </div>
         </div>
       </Layout>

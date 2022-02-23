@@ -528,6 +528,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .p-4 {
   padding: 1rem;
 }
+.p-60 {
+  padding: 15rem;
+}
 .p-6 {
   padding: 1.5rem;
 }
@@ -566,8 +569,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
-.text-right {
-  text-align: right;
+.text-center {
+  text-align: center;
 }
 .align-middle {
   vertical-align: middle;
@@ -580,12 +583,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-size: 1rem;
   line-height: 1.5rem;
 }
-.text-7xl {
-  font-size: 4.5rem;
-  line-height: 1;
-}
 .text-8xl {
   font-size: 6rem;
+  line-height: 1;
+}
+.text-9xl {
+  font-size: 8rem;
   line-height: 1;
 }
 .text-xxs {
@@ -616,10 +619,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 @media (min-width: 768px) {
 
-  .md\:w-1\/2 {
-    width: 50%;
-  }
-
   .md\:flex-row {
     flex-direction: row;
   }
@@ -632,10 +631,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     --tw-space-y-reverse: 0;
     margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(1rem * var(--tw-space-y-reverse));
-  }
-
-  .md\:text-left {
-    text-align: left;
   }
 }
 @media (min-width: 1024px) {
@@ -650,9 +645,5 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:flex-grow {
     flex-grow: 1;
-  }
-
-  .lg\:p-20 {
-    padding: 5rem;
   }
 }
