@@ -11,4 +11,11 @@
     background-size: cover;
     background-repeat: no-repeat;
   }
+
+  .app-container {
+    flex: 0.5;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+  }
 }
