@@ -8,22 +8,22 @@ export default function Navbar() {
         <div className="hidden justify-center w-full lg:inline-flex lg:flex-grow lg:w-auto">
           <div className="flex flex-row justify-center items-center">
             <Link href="/">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:text-white">
+              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center text-lg hover:text-white">
                 danica depenhart
               </a>
             </Link>
             <Link href="/about">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:text-white">
+              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center text-lg hover:text-white">
                 about
               </a>
             </Link>
             <Link href="/publications">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:text-white">
+              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center text-lg  hover:text-white">
                 publications
               </a>
             </Link>
             <Link href="https://www.instagram.com/motherweather">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:text-white">
+              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center text-lg hover:text-white">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="32"

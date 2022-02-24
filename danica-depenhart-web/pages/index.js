@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
 import Layout from "../components/Layout";
-import bdb from "../public/bdb.jpg";
 import mainImg from "../public/background.jpg";
 
 export default function Home() {
