@@ -5,11 +5,9 @@
 @layer components {
   .background-img {
     min-height: 100%;
-    box-shadow: inset 100em 100em rgba(255, 255, 255, 0.6);
-    background-image: url("/background.jpg");
-    background-position: 10% 75%;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url("/tile.jpg");
+    background-size: auto;
+    background-repeat: repeat;
   }
 
   .app-container {
