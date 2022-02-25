@@ -1,10 +1,27 @@
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 
 export default function Navbar() {
+  const [active, setActive] = useState(false);
+
   return (
     <>
-      <nav className="flex items-center justify-center flex-wrap p-6">
+      <nav className="flex items-center sm:justify-center justify-end flex-wrap p-6">
+        <div className="block lg:hidden">
+          <button
+            className="flex items-center px-3 py-2 border rounded text-black border-black hover:text-white hover:border-white"
+            onClick={() => setActive(!active)}
+          >
+            <svg
+              className="fill-current h-3 w-3"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>Menu</title>
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
+          </button>
+        </div>
         <div className="hidden justify-center w-full lg:inline-flex lg:flex-grow lg:w-auto">
           <div className="flex flex-row justify-center items-center">
             <Link href="/">
@@ -23,7 +40,7 @@ export default function Navbar() {
               </a>
             </Link>
             <Link href="https://www.instagram.com/motherweather">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center text-lg hover:text-white">
+              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center  text-lg hover:text-white">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="32"
