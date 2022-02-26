@@ -6,8 +6,8 @@ import { urlObjectKeys } from "next/dist/shared/lib/utils";
 
 export default function Layout({ children }) {
   return (
-    <main>
-      <div className="app-container background-img">
+    <main className="background-img">
+      <div className="app-container">
         <Navbar />
         <div>{children}</div>
         <Footer />
