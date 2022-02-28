@@ -6,7 +6,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="flex items-center justify-end flex-wrap p-6">
+      <nav className="flex items-center justify-end flex-wrap p-2 border-2 border-green-600">
         <div className="block lg:hidden">
           <button
             className="flex items-center px-3 py-2 border rounded text-black border-black hover:text-white hover:border-white"
