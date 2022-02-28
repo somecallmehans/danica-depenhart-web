@@ -436,12 +436,8 @@ Ensure the default browser behavior of the `hidden` attribute.
     flex-direction: column;
     justify-content: space-between;
   }
-.absolute {
-  position: absolute;
-}
-.inset-x-1 {
-  left: 0.25rem;
-  right: 0.25rem;
+.relative {
+  position: relative;
 }
 .bottom-0 {
   bottom: 0px;
@@ -458,8 +454,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: 1rem;
   margin-right: 1rem;
 }
-.mt-8 {
-  margin-top: 2rem;
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .block {
   display: block;
@@ -472,12 +469,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .hidden {
   display: none;
-}
-.h-screen {
-  height: 100vh;
-}
-.h-1\/2 {
-  height: 50%;
 }
 .h-3 {
   height: 0.75rem;
@@ -505,9 +496,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .w-5 {
   width: 1.25rem;
-}
-.max-w-6xl {
-  max-width: 72rem;
 }
 .flex-row {
   flex-direction: row;
@@ -545,17 +533,17 @@ Ensure the default browser behavior of the `hidden` attribute.
 .border {
   border-width: 1px;
 }
-.border-blue-700 {
+.border-blue-500 {
   --tw-border-opacity: 1;
-  border-color: rgb(29 78 216 / var(--tw-border-opacity));
+  border-color: rgb(59 130 246 / var(--tw-border-opacity));
 }
 .border-red-600 {
   --tw-border-opacity: 1;
   border-color: rgb(220 38 38 / var(--tw-border-opacity));
 }
-.border-rose-500 {
+.border-green-600 {
   --tw-border-opacity: 1;
-  border-color: rgb(244 63 94 / var(--tw-border-opacity));
+  border-color: rgb(22 163 74 / var(--tw-border-opacity));
 }
 .border-black {
   --tw-border-opacity: 1;
