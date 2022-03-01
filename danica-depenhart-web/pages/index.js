@@ -11,12 +11,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
-        <section className="px-2 flex flex-col border-2 border-blue-700">
-          <div className="overflow-hidden h-1/2 border-2 border-red-600">
+        <section className="image-box">
+          <div className="overflow-hidden h-2/5 md:h-5/6 w-4/6 relative mx-auto my-11 border-2 border-blue-500">
             <Image
               src={mainImg}
-              className="object-contain"
-              alt="Main page img"
+              alt="Main page image"
+              layout="fill"
+              objectfit="cover"
             />
           </div>
         </section>
