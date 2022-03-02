@@ -5,7 +5,7 @@
 @layer components {
   .background-img {
     height: 100%;
-    background-image: url("/tile.jpg");
+    background-color: white;
     background-size: auto;
     background-repeat: repeat;
   }
@@ -14,13 +14,11 @@
     display: flex;
     height: 100vh;
     flex-direction: column;
-    border: 5px solid yellow;
   }
 
   .image-box {
     display: flex;
     height: 90vh;
-    border: 2px solid orange;
   }
 
   .about-background {

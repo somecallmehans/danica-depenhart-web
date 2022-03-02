@@ -6,7 +6,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="flex items-center justify-end flex-wrap p-2 border-2 border-green-600">
+      <nav className="flex lg:relative items-center justify-end flex-wrap p-2">
         <div className="block lg:hidden">
           <button
             className="flex items-center px-3 py-2 border rounded text-black border-black hover:text-white hover:border-white"
@@ -24,10 +24,10 @@ export default function Navbar() {
         </div>
         <div
           className={`${
-            active ? "" : "hidden"
+            active ? "absolute bg-[url('/tile.jpg')] z-10 top-12" : "hidden"
           } w-full lg:inline-flex lg:flex-grow lg:w-auto`}
         >
-          <div className="lg:inline-flex lg:flex-row lg:mx-auto lg:w-auto w-full flex flex-col lg:h-auto">
+          <div className="lg:inline-flex lg:flex-row lg:mx-auto lg:w-auto w-full flex flex-col lg:h-auto pl-2">
             <Link href="/">
               <a className="lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center text-lg hover:text-white">
                 danica depenhart

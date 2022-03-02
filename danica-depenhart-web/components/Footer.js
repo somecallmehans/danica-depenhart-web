@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="overflow-hidden bg-transparent-200 fixed w-full bottom-0 border-2 border-red-600">
+    <div className="overflow-hidden bg-transparent-200 absolute bottom-0 w-full mx-auto">
       <div className="flex flex-col align-middle md:space-y-4 md:flex-row justify-between md:items-center my-auto">
         <div className="text-slate-500 text-xxs">
           <div className="text-slate-500 text-xxs">

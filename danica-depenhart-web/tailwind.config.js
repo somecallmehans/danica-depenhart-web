@@ -1,3 +1,5 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -6,6 +8,11 @@ module.exports = {
   presets: [],
   darkMode: "media", // or 'class'
   theme: {
+    extend: {
+      fontFamily: {
+        danica: ["Playfair Display SC", ...defaultTheme.fontFamily.sans],
+      },
+    },
     screens: {
       sm: "640px",
       md: "768px",
