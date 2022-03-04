@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
       <Layout>
         <section className="image-box">
-          <div className="overflow-hidden h-2/5 md:h-5/6 w-4/6 relative mx-auto my-11">
+          <div className="overflow-hidden h-2/5 md:h-5/6 w-4/6 relative mx-auto my-11 border-2">
             <Image
               src={mainImg}
               alt="Main page image"
