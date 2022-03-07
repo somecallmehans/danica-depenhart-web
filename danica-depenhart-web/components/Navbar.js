@@ -9,7 +9,9 @@ export default function Navbar() {
       <nav className="flex flex-row md:static md:items-center overflow-hidden">
         <div className="h-[64px] w-full md:w-1/2 md:mx-auto">
           <div
-            className={`${active ? "invisible" : "visible"} md:hidden w-20 p-2`}
+            className={`${
+              active ? "invisible" : "visible"
+            } md:hidden w-20 p-2 float-right`}
           >
             <button
               className="p-3 border-2 border-black"
