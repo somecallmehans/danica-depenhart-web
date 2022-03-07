@@ -7,7 +7,9 @@ export default function Navbar() {
   return (
     <>
       <nav className="flex flex-row md:static md:items-center flex-wrap p-2 border-2 border-red-500">
-        <div className="md:hidden">
+        <div
+          className={`${active ? "invisible" : "visible"} md:hidden ml-auto`}
+        >
           <button
             className="p-3 border-2 border-black"
             onClick={() => setActive(!active)}
@@ -49,18 +51,38 @@ export default function Navbar() {
         <div
           className={`${
             active ? "visible" : "invisible"
-          } nav-overlay border-2 border-white`}
+          } nav-overlay border-2 border-red-500`}
         >
-          <button
-            className="p-3 border-2 border-white"
-            onClick={() => setActive(!active)}
-          >
-            M
-          </button>
-          <div className="nav-overlay-content">
-            <a className="text-white">Link 1</a>
-            <a className="text-white">Link 2</a>
-            <a className="text-white">Link 3</a>
+          <div className="absolute top-[9px] right-[14px]">
+            <button
+              className="p-3 border-2 border-white text-white"
+              onClick={() => setActive(!active)}
+            >
+              M
+            </button>
+          </div>
+
+          <div className="nav-overlay-content flex flex-col">
+            <Link href="/">
+              <a className="lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center text-2xl hover:text-white">
+                danica depenhart
+              </a>
+            </Link>
+            <Link href="/about">
+              <a className="lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center text-2xl hover:text-white">
+                about
+              </a>
+            </Link>
+            <Link href="/publications">
+              <a className="lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center text-2xl  hover:text-white">
+                publications
+              </a>
+            </Link>
+            <Link href="https://www.instagram.com/motherweather">
+              <a className="lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center text-2xl  hover:text-white">
+                instagram
+              </a>
+            </Link>
           </div>
         </div>
       </nav>

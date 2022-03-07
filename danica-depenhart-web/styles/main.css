@@ -437,7 +437,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 .image-box {
     display: flex;
-    height: 90vh;
+    height: 80vh;
   }
 .nav-overlay {
     height: 100vh;
@@ -446,7 +446,7 @@ Ensure the default browser behavior of the `hidden` attribute.
     z-index: 1;
     left: 0;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     overflow-x: hidden;
     transition: 0.5s;
   }
@@ -475,6 +475,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bottom-0 {
   bottom: 0px;
 }
+.top-\[9px\] {
+  top: 9px;
+}
+.right-\[14px\] {
+  right: 14px;
+}
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -486,6 +492,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .my-auto {
   margin-top: auto;
   margin-bottom: auto;
+}
+.ml-auto {
+  margin-left: auto;
 }
 .inline-block {
   display: inline-block;
@@ -544,10 +553,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .border-2 {
   border-width: 2px;
 }
-.border-blue-500 {
-  --tw-border-opacity: 1;
-  border-color: rgb(59 130 246 / var(--tw-border-opacity));
-}
 .border-red-500 {
   --tw-border-opacity: 1;
   border-color: rgb(239 68 68 / var(--tw-border-opacity));
@@ -555,6 +560,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .border-black {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+.border-blue-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(59 130 246 / var(--tw-border-opacity));
 }
 .border-white {
   --tw-border-opacity: 1;
@@ -599,6 +608,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 .font-bold {
   font-weight: 700;
