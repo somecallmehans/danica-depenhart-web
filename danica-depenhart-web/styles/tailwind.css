@@ -3,22 +3,16 @@
 @tailwind utilities;
 
 @layer components {
-  .background-img {
-    height: 100%;
-    background-color: gray;
-    background-size: auto;
-    background-repeat: repeat;
+  body {
+    background-color: #f2bc94;
   }
 
   .app-container {
+    min-height: 100vh;
     display: flex;
-    height: 100vh;
     flex-direction: column;
-  }
-
-  .image-box {
-    display: flex;
-    height: 80vh;
+    position: relative;
+    font-color: #30110d;
   }
 
   .nav-overlay {

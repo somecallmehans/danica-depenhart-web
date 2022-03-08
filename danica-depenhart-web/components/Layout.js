@@ -5,12 +5,10 @@ import Footer from "./Footer";
 
 export default function Layout({ children }) {
   return (
-    <main className="background-img">
-      <div className="app-container">
-        <Navbar />
-        <div>{children}</div>
-        <Footer />
-      </div>
+    <main className="app-container">
+      <Navbar />
+      <div className="mt-2 mb-16">{children}</div>
+      <Footer />
     </main>
   );
 }
