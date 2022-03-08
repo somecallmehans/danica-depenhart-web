@@ -7,7 +7,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="flex flex-row md:static md:items-center w-full">
+      <nav className="flex flex-row md:static md:items-center w-full overflow-hidden">
         <div className="h-[64px] w-full md:w-1/2 md:m-auto">
           <div
             className={`${
