@@ -7,7 +7,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="flex flex-row md:static md:items-center overflow-hidden">
+      <nav className="flex flex-row md:static md:items-center w-full">
         <div className="h-[64px] w-full md:w-1/2 md:m-auto">
           <div
             className={`${
@@ -24,7 +24,7 @@ export default function Navbar() {
           <div className="md:visible invisible mt-3 md:text-center">
             <Link href="/">
               <a className="lg:w-auto w-full px-3 rounded text-[#30110d] font-bold items-center justify-center text-2xl hover:text-[#722620]">
-                danica depenhart
+                danica
               </a>
             </Link>
             <Link href="/about">
@@ -55,7 +55,7 @@ export default function Navbar() {
           <div className="nav-overlay-content flex flex-col">
             <Link href="/">
               <a className="lg:w-auto w-full px-3 py-2 rounded text-[#f2bc94] font-bold items-center justify-center text-2xl">
-                danica depenhart
+                danica
               </a>
             </Link>
             <Link href="/about">
