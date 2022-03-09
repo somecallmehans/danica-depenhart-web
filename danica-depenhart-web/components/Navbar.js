@@ -23,12 +23,12 @@ export default function Navbar() {
           </div>
           <div className="md:visible invisible mt-3 md:text-center">
             <Link href="/">
-              <a className="lg:w-auto w-full px-3 rounded text-[#30110d] font-bold items-center justify-center text-2xl hover:text-[#722620]">
+              <a className="lg:w-auto w-full px-3 font-playfair_display text-[#30110d] font-bold items-center justify-center text-2xl hover:text-[#722620]">
                 danica
               </a>
             </Link>
             <Link href="/about">
-              <a className="lg:w-auto w-full px-3 rounded text-[#30110d] font-bold items-center justify-center text-2xl hover:text-[#722620]">
+              <a className="lg:w-auto w-full px-3  font-playfair text-[#30110d] font-bold items-center justify-center text-2xl hover:text-[#722620]">
                 about
               </a>
             </Link>

@@ -8,11 +8,6 @@ module.exports = {
   presets: [],
   darkMode: "media", // or 'class'
   theme: {
-    extend: {
-      fontFamily: {
-        danica: ["Playfair Display SC", ...defaultTheme.fontFamily.sans],
-      },
-    },
     screens: {
       sm: "640px",
       md: "768px",
@@ -410,6 +405,9 @@ module.exports = {
     extend: {
       fontSize: {
         xxs: ["0.6rem", { lineHeight: "0.75rem" }],
+      },
+      fontFamily: {
+        serif: ["Playfair Display", ...defaultTheme.fontFamily.serif],
       },
     },
     fontWeight: {

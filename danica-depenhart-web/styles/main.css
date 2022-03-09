@@ -596,6 +596,9 @@ body {
 .text-center {
   text-align: center;
 }
+.font-serif {
+  font-family: Playfair Display, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
 .text-xxs {
   font-size: 0.6rem;
   line-height: 0.75rem;
@@ -651,6 +654,10 @@ body {
 
   .md\:w-1\/2 {
     width: 50%;
+  }
+
+  .md\:w-2\/3 {
+    width: 66.666667%;
   }
 
   .md\:w-3\/6 {
