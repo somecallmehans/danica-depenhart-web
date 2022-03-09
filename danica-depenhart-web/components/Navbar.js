@@ -14,11 +14,8 @@ export default function Navbar() {
               active ? "invisible" : "visible"
             } md:hidden w-20 p-2 float-right`}
           >
-            <button
-              className="p-3 text-[#30110d]"
-              onClick={() => setActive(!active)}
-            >
-              <AiOutlineMenu size={28} />
+            <button className="p-3" onClick={() => setActive(!active)}>
+              <AiOutlineMenu size={28} color={"#30110d"} />
             </button>
           </div>
           <div className="md:visible invisible mt-3 md:text-center">
@@ -48,7 +45,7 @@ export default function Navbar() {
         <div className={`${active ? "h-full" : "h-0"} nav-overlay`}>
           <div className="absolute bottom-[9px] mx-auto left-0 right-0 text-center">
             <button className="p-3" onClick={() => setActive(!active)}>
-              <AiOutlineClose size={28} color={"white"} />
+              <AiOutlineClose size={28} color={"#f2bc94"} />
             </button>
           </div>
 
