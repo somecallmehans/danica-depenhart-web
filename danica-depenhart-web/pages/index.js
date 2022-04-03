@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
       <Layout>
         <section className="flex h-fit">
-          <div className="overflow-hidden h-80 w-5/6 md:h-[600px] md:w-3/6 relative mx-auto my-11">
+          <div className="overflow-hidden h-80 w-5/6 md:h-[600px] md:w-3/6 relative mx-auto my-11 drop-shadow-md">
             <Image src={mainImg} alt="Main page image" layout="fill" />
           </div>
         </section>
