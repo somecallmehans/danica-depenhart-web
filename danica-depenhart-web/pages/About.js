@@ -8,7 +8,7 @@ export default function About() {
     <div>
       <Layout>
         <section className="relative flex flex-col w-full h-full mx-auto mt-2 md:flex-row md:w-3/4">
-          <div className="md:w-1/2 min-h-[300px] min-w-[200px] md:min-h-[600px] p-4 drop-shadow-lg">
+          <div className="md:w-2/3 min-h-[300px] min-w-[200px] md:min-h-[600px] p-4 drop-shadow-lg">
             <Image
               src={bdb}
               alt="Danica image"
@@ -17,7 +17,7 @@ export default function About() {
               className="md:object-right min-h-[300px] min-w-[200px]"
             />
           </div>
-          <div className="md:w-1/2 md:my-auto">
+          <div className="mt-4 md:w-1/2 md:my-auto">
             <p className="px-8 text-[#30110d] text-xl w-full lg:w-2/3 2xl:w-1/2">
               Danica Depenhart is a Pittsburgh based writer, maker, & educator.
               She is a recipient of The Alex Rowan Award for poetry writing, &

@@ -490,8 +490,15 @@ body {
   margin-top: 2.75rem;
   margin-bottom: 2.75rem;
 }
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
 .mt-2 {
   margin-top: 0.5rem;
+}
+.mt-4 {
+  margin-top: 1rem;
 }
 .mb-0 {
   margin-bottom: 0px;
@@ -602,6 +609,9 @@ body {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
+.pt-8 {
+  padding-top: 2rem;
+}
 .text-center {
   text-align: center;
 }
@@ -616,13 +626,17 @@ body {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
-.text-xxs {
-  font-size: 0.6rem;
-  line-height: 0.75rem;
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+.text-xxs {
+  font-size: 0.6rem;
+  line-height: 0.75rem;
 }
 .font-bold {
   font-weight: 700;
@@ -684,6 +698,10 @@ body {
 
   .md\:w-3\/4 {
     width: 75%;
+  }
+
+  .md\:w-2\/3 {
+    width: 66.666667%;
   }
 
   .md\:w-1\/2 {
